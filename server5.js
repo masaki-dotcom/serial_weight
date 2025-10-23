@@ -64,3 +64,4 @@ setInterval(() => {
   const timeStr = now.toLocaleString();
   console.log(`${timeStr} : ${latestData ?? "No data yet"}`);
 }, 60 * 1000); // 60秒ごと
+//node server.js  で起動
