@@ -31,4 +31,3 @@ wss.on("connection", (ws) => {
 server.listen(8080, () => {
   console.log("Server running on http://localhost:8080/");
 });
-//node server.js  で起動
